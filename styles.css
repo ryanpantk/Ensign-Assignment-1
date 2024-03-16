@@ -35,7 +35,7 @@ input[type="text"] {
 }
 
 .content-container {
-    padding: 28px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 48px;
@@ -71,7 +71,7 @@ input[type="text"] {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin: 48px 0px;
 }
 
 /* Nav Bar */
