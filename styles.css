@@ -1,0 +1,189 @@
+/* Global */
+body {
+    font-family: ui-sans-serif, sans-serif, Arial, Helvetica;
+    background-color: #F7F8F9;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+}
+
+/* Container Layout */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F8F9;
+    width: 100vw;
+}
+
+.nav-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 64px;
+    z-index: 10;
+}
+
+.content-container {
+    padding: 28px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 48px;
+}
+
+.column-container {
+    grid-column: span 1 / span 1;
+}
+
+.card-container {
+    background-color: white;
+    margin: 16px 0px;
+    padding: 16px 24px;
+    border-radius: 6px;
+}
+
+.card-metadata-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+/* Common */
+.vertical-divider {
+    border-left: 3px solid #F7F8F9;
+    height: 40px;
+}
+
+.header {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* Nav Bar */
+.nav-logo {
+    height: 36px;
+    margin: 0px 48px;
+}
+
+.nav-search-icon {
+    width: 28px;
+    height: 28px;
+    margin: 0px 16px;
+}
+
+.nav-search-input {
+    flex: 1 1 0%;
+}
+
+.nav-avatar-photo {
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    margin: 0px 16px;
+}
+
+.nav-profile-name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-right: 64px;
+    color: #646678;
+}
+
+/* Card */
+.card-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #646678;
+}
+
+.card-body {
+    font-size: 20px;
+    line-height: 28px;
+    color: #ABACB6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card-metadata-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+}
+
+.status-incomplete {
+    font-size: 16px;
+    line-height: 24px;
+    color: #EF2C40;
+    font-weight: 600;
+}
+
+.status-today {
+    font-size: 16px;
+    line-height: 24px;
+    color: #A375FF;
+    font-weight: 600;
+}
+
+.status-to-be-completed {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4DD86E;
+    font-weight: 600;
+}
+
+.status-completed {
+    font-size: 16px;
+    line-height: 24px;
+    color: #B4BBC8;
+    font-weight: 600;
+}
+
+.avatar-oz {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #3591FB;
+}
+
+.avatar-le {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #C335FB;
+}
+
+.avatar-me {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #35CDFB;
+}
+
+.avatar-am {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #915AFF;
+}
