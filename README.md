@@ -2,7 +2,7 @@
 
 ## Overview
 Implement the following design in HTML and CSS without any CSS framework.
-![Imgur](https://imgur.com/a/1EvhP5F)
+![design](https://github.com/ryanpantk/Ensign-Assignment-1/assets/66586824/ae82f8d8-d844-4e1f-9b4c-67765be6a0ac)
 
 ## Getting Started
 
