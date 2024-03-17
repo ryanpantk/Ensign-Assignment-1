@@ -1,12 +1,8 @@
 # Ensign-Assignment-1
 
 ## Overview
-<p align="center">
-    Implement the following design in HTML and CSS without any CSS framework.
-</p>
-<div align="center">
-  <a href="url"><img src="https://imgur.com/a/1EvhP5F" align="center" height="200" width="200" ></a>
-</div>
+Implement the following design in HTML and CSS without any CSS framework.
+![Imgur](https://imgur.com/a/1EvhP5F)
 
 ## Getting Started
 
